@@ -9,7 +9,7 @@
 	p {
   	font-size: 12pt;
     margin-left: 360px;
-  	margin-top:34px;
+  	margin-top:16px;
   	width: 630px;
   	color: black;
     }
@@ -26,38 +26,37 @@
 	box-shadow: 0 0 5px grey;
 	margin: 0 auto;
 	}
-   
 	.cycle {
 	display: block;
 	margin-left: 327px;
 	width: 686px;
-	height: 400px;
+	height: 443px;
 	border: 1px solid #c8c8c8;
 	}
-	
 	.menuhead {
 	margin: 40px;
 	width: 940px;
 	height: 38px;
 	text-align: left;
-	background-color: black;
+	background-color: #696969;
 	font-size: 11pt;
 	}
 	.menuhead  li{ 
 	display: inline-block;
-	margin-left: 35px;
-	padding-right: 63px;
-	margin-top: 10px; 
+	line-height: 38px;
+	width: 130px;
+	text-align: center;
 	}
 	.menuhead  a {
 	color: white;
 	text-decoration: none;
 	}
-	.menuhead a:hover {	
+	.menuhead li:hover { 
 	background-color: black;
-	color: #2FF740;
-	text-decoration: none;
-	}
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	width: 128px;
+	}	
 	.menuleft {
 	width: 245px;
 	margin-top: 0px;
@@ -85,7 +84,7 @@
 	font-weight: bold;
 	} 
 	.menufoot {
-	margin: 40px; 
+	margin: 30px; 
 	width: 940px;
 	height: 38px;
 	list-style-type: none;
@@ -96,8 +95,8 @@
 	display: inline-block; 
 	color: #2c2c2c;  
 	margin-top: 10px;
-	margin-left: 15px;
-	padding-right: 96px;
+	margin-left: 18px;
+	padding-right: 78px;
 	}
 	.menufoot  a {
 	text-decoration: none;
